@@ -1,0 +1,222 @@
+/* General Styles */
+body {
+   margin: 0;
+   font-family: Arial, sans-serif;
+   background-color: #0a0a0a;
+   color: #ffffff;
+}
+
+header.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+   background-color: #111;
+}
+
+.logo {
+   font-size: 1.5em;
+   font-weight: bold;
+   color: #fff;
+}
+
+nav ul {
+   list-style: none;
+   display: flex;
+   gap: 20px;
+}
+
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   transition: color 0.3s;
+}
+
+nav ul li a:hover {
+   color: #00bcd4;
+}
+
+.contact-btn {
+   padding: 10px 20px;
+   background-color: #00bcd4;
+   border-radius: 4px;
+}
+
+/* Contact Header */
+.contact-header {
+   text-align: center;
+   padding: 80px 20px;
+   background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+
+.contact-header h1 {
+   font-size: 3em;
+}
+
+.contact-header p {
+   color: #ddd;
+}
+
+/* Contact Info Section */
+.contact-info {
+   display: flex;
+   justify-content: space-around;
+   padding: 50px 20px;
+   background-color: #111;
+}
+
+.info-box {
+   text-align: center;
+}
+
+.info-box h3 {
+   font-size: 1.5em;
+   color: #00bcd4;
+}
+
+/* Get in Touch Section */
+.get-in-touch {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   padding: 80px 20px;
+   background-color: #1a1a1a;
+}
+
+.contact-img img {
+   max-width: 400px;
+   border-radius: 20px;
+}
+
+.contact-form {
+   max-width: 500px;
+   width: 100%;
+}
+
+.contact-form h2 {
+   font-size: 2.5em;
+   margin-bottom: 20px;
+}
+
+.contact-form form {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+   padding: 15px;
+   background-color: #333;
+   border: none;
+   color: #fff;
+   border-radius: 5px;
+}
+
+.contact-form button {
+   padding: 15px;
+   background-color: #00bcd4;
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+   background-color: #008ba3;
+}
+
+/* Map Section */
+.map {
+   padding: 50px;
+   background-color: #222;
+}
+
+#map {
+   width: 100%;
+   height: 300px;
+   background-color: #444;
+}
+
+/* Newsletter Section */
+.newsletter {
+   text-align: center;
+   padding: 60px 20px;
+   background: linear-gradient(to right, #2575fc, #6a11cb);
+}
+
+.newsletter h2 {
+   margin-bottom: 20px;
+}
+
+.newsletter-form {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+}
+
+.newsletter-form input {
+   padding: 10px;
+   width: 300px;
+   border: none;
+   border-radius: 5px;
+}
+
+.newsletter-form button {
+   padding: 10px 20px;
+   background-color: #00bcd4;
+   border: none;
+   color: #fff;
+   cursor: pointer;
+   transition: background-color 0.3s;
+}
+
+.newsletter-form button:hover {
+   background-color: #008ba3;
+}
+
+/* Footer Section */
+footer {
+   padding: 50px 20px;
+   background-color: #111;
+   color: #fff;
+}
+
+.footer-content {
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   gap: 30px;
+}
+
+.social-links a {
+   margin-right: 15px;
+}
+
+.footer-links {
+   display: flex;
+   gap: 30px;
+}
+
+.footer-links ul {
+   list-style: none;
+   padding: 0;
+}
+
+.footer-links ul li a {
+   color: #bbb;
+   text-decoration: none;
+   transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+   color: #00bcd4;
+}
+
+.footer-bottom {
+   text-align: center;
+   padding-top: 30px;
+   border-top: 1px solid #333;
+   color: #777;
+}
